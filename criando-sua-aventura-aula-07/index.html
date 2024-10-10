@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, ouvi dizer sobre "algoz 24" e comos sou muito curioso, decidi ir atras desse mistério... Onde devo procurar primeiro?</p>
+            <button class="btn-proximo" data-proximo="1">Nocaute</button>
+            <button class="btn-proximo" data-proximo="2">Roubo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Nocaute. Não é possivel ver nenhum sinal de vida... Até decidir olhar o mato e encontrar o Mestle spike. Qual perunta devemos fazer primeiro?</p>
+            <button class="btn-proximo" data-proximo="3">Como posso achar o Algoz 24??</button>
+            <button class="btn-proximo" data-proximo="4">Spike buxa, prefiro o kit</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>De tal maneira, mestle spike indica a direção silenciosamente para o caminho, MAS, há duas direções... Qual caminho tomar?</p>
+            <button class="btn-proximo" data-proximo="7">Combate duplo...</button>
+            <button class="btn-proximo" data-proximo="5">Combate solitário</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/spike monstro.webp" alt="">
+            <p>Mestle spike desgosta da sua atitude e te reduz a poeira.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Logo ao chegar você se depara com algo escondido pela luz do sol...</p>
+            <img src="img/no sol.jfif" alt="">
+            <button class="btn-proximo" data-proximo="7">Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Então decide entrar no combate duplo. Você acaba se deparando com 2 kit pulando em você enquanto procurava pistas. Qual ação tomar?</p>
+            <img src="img/kit pulano.jfif" alt="">
+            <button class="btn-proximo" data-proximo="9">Louvar o mestle spike</button>
+            <button class="btn-proximo" data-proximo="10">Correr e se esconder!!!!</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/el primo.jfif" alt="">
+            <p>Mestle spike ouve suas preces e o el primo aparece! Diz ele "vá, criança, algoz 24 se abriga no solitário"</p>
+            <button class="btn-proximo" data-proximo="5">Obrigado El primo!</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/edgar deslikando.jfif" alt="">
+            <p>Voce consegue escapar com êxito, mas ao entrar na moita se depara com Edgar que te derrota e manda deslike...</p>
+            <button class="btn-proximo" data-proximo="7">Chorar e voltar no tempo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
